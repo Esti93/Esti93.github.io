@@ -21,7 +21,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible { outline: 3px solid 
 nav { gap: clamp(.8rem,3vw,3rem); }
 nav a:hover, a[aria-current],footer a:hover { text-decoration: underline; }
 .stage { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 4vw; padding-block: clamp(2.2rem,5vw,5.3rem); }
-h1,h2,.project-name { font-weight: 650; letter-spacing: -.074em; line-height: .9; }
+h1,h2,.project-name { font-weight: 650; letter-spacing: -.045em; line-height: .9; }
 h1 { font-size: clamp(4rem,9vw,10rem); }
 h1 span { color: var(--lavender); }
 .headline h1 { font-size: clamp(5.1rem,11.5vw,12rem); margin-block: .9rem 1.25rem; }
@@ -47,7 +47,7 @@ h1 span { color: var(--lavender); }
 .deck[data-face="1"] .print i { border-radius: 15%; width: 65%; }
 .deck[data-face="2"] .front { background: #c4b5ff; transform: rotate(-7deg); }
 .deck[data-face="2"] .print i { width: 80%; height: 24%; border-radius: 0; }
-.deck figcaption { margin: .7rem 4% 0; color: #dbd9dc; }
+.deck figcaption { margin: 1.8rem 4% 0; color: #dbd9dc; }
 button { background: transparent; font: inherit; border: 1px solid var(--line); border-radius: 2rem; cursor: pointer; min-height: 44px; padding-inline: .9rem; }
 .section-head { padding-block: 1.4rem; border-top: 1px solid var(--line); }
 h2,.project-name { font-size: clamp(2.2rem,4.8vw,5.3rem); }

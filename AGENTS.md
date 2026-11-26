@@ -7,3 +7,5 @@ Keep the starter in plain HTML and shared CSS until Esti requests a refactor. Us
 For Figma requests, inspect the specified frames and use web-sized exports with descriptive alt text. Keep editable source designs in Figma. Use UI UX Pro Max and 21st.dev MCP when available for relevant design tasks. Keep their configuration, credentials and dependencies out of the visitor-facing site.
 
 Check affected links, desktop and mobile layout, keyboard focus and asset sizes. Report progress against the task roadmap. Distinguish local edits, commits and live deployments in updates. When asked to publish, sync with main and verify the live Pages URL.
+
+When shared CSS or JavaScript changes, refresh its version in all referencing pages. Check the rendered Pages homepage after publishing, including a narrow viewport and an ordinary reload.
